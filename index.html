@@ -5,21 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULADORA (Curso Odin Project) </title>
-    <link rel="stylesheet" href="archivo.css">
+    <link rel="stylesheet" href="style.css">
     <script src="archivo.js" defer></script>
 </head>
 <body>
-    <div class="divNumeros">
-        <input type="text", id="Pantalla", value="" readonly>
-        </div>
-        <div class="divOperadores">          
-          <button id="+", class="btnOper">+</button>
-          <button id="-", class="btnOper">-</button>
-          <button id="*", class="btnOper">*</button>
-          <button id="/", class="btnOper">/</button>
-          <button id="Borrar">Borrar</button>
-          </div>
-        <div>
+      <div class="divTop"></div>
+      <input type="text", id="Pantalla", value="" readonly>
+<main>
+  <section>
+      <div class="divNum"></div>
         <button id="1", class="btnNum">1</button>
         <button id="2", class="btnNum">2</button>
         <button id="3", class="btnNum">3</button>
@@ -30,9 +24,21 @@
         <button id="8", class="btnNum">8</button>
         <button id="9", class="btnNum">9</button>
         <button id="0", class="btnNum">0</button>
+        <button id="Result", class="btnNum">=</button>
         </div>
-        <div class="divResult"></div>
-        <button id="Result">=</button>
+        </section>
+<aside>  
+           <div class="divOper">
+          <button id="+", class="btnOper">+</button>
+          <button id="-", class="btnOper">-</button>
+          <button id="*", class="btnOper">*</button>
+          <button id="/", class="btnOper">/</button>
+          <button id="Borrar", class="btnOper">Borrar</button>
+          </div>
+</aside>
+
+</main>
+<footer></footer>
 </body>
 
  

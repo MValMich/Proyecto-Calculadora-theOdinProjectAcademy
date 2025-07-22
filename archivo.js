@@ -56,7 +56,7 @@ btnOper.forEach((button)=>{
 const Result = document.querySelector('#Result')
 Result.addEventListener('click', (Pantalla)=>{
 Pantalla = document.querySelector('#Pantalla')
-Pantalla.value = ( new Function ('return('+ Pantalla.value +')')())
+Pantalla.value = ( new Function ('return('+ Pantalla.value.replace(/[<>&"']/gi,"") +')')())
 })
 // BORRAR PANTALLA
 const Borrar = document.querySelector('#Borrar')

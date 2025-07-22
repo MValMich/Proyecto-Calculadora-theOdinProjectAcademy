@@ -1,0 +1,91 @@
+body {
+    background-color: #0cb0e6;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(120deg, rgb(1, 1, 34), white);
+    margin-bottom: 15px;
+}
+
+.divTop{
+    height: 50px;
+}
+
+input{
+    height: 50px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+main {
+    display: flex;
+    flex: 1;
+    width: 60%;
+    margin: auto;
+}
+
+aside{
+    border: solid yellow 1px;
+    padding: 8px;
+    background-color: gray;
+    border-radius: 15px;
+    background: radial-gradient(blue,black,red);
+}
+
+section {
+    border: solid red 1px;
+    padding: 8px;
+     background: radial-gradient(red,black,blue);
+     border-radius: 15px;
+}
+.btnOper {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.btnNum {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 5px;
+}
+    footer{
+    height: 50px;
+}
+
+
+ @media (max-width: 600px) {
+    .divTop{
+      height: 10px;
+}
+    main {
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+      padding: 24px
+    }
+    aside {
+      width: auto;
+    }
+    select {
+        width: auto
+    }
+.btnOper {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+
+.btnNum {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+    footer{
+    height: 10px;
+}
+}
